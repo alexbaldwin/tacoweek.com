@@ -3,4 +3,30 @@ title: Taco Week
 ---
 
 .container.p2
-  %h1 Taco Week
+  %header.mt4
+    %h1.h1 Taco Week
+    %h2.h4.regular.mid-gray November 2nd - 9th 2014
+    %p.h3.regular International Taco Week is coming up. Get prepared for a week of glory.
+
+  %hr.mb4.mt4
+  %section
+    %h3.h3.regular.caps.mb3 Last years taco creations
+    .row
+      .col.col-3= image_tag('http://photos-f.ak.instagram.com/hphotos-ak-xap1/1388858_481836355264525_2000396912_n.jpg', class: 'fit')
+      .col.col-3= image_tag('http://photos-c.ak.instagram.com/hphotos-ak-xap1/1172565_1433463810208746_1341725235_n.jpg', class: 'fit')
+      .col.col-3= image_tag('http://photos-f.ak.instagram.com/hphotos-ak-xpf1/1389262_1432771716938389_107887162_n.jpg', class: 'fit')
+      .col.col-3= image_tag('http://photos-f.ak.instagram.com/hphotos-ak-xpa1/926608_321530441320973_1209901167_n.jpg', class: 'fit')
+    .row
+      .col.col-3= image_tag('http://distilleryimage5.ak.instagram.com/027c3f3c93ed11e2a5d322000a1f90e5_7.jpg', class: 'fit')
+      .col.col-3= image_tag('http://photos-e.ak.instagram.com/hphotos-ak-xaf1/10607938_539122462898452_1491294682_n.jpg', class: 'fit')
+      .col.col-3= image_tag('http://scontent-b-sjc.cdninstagram.com/hphotos-xaf1/t51.2885-15/10611250_580368678738678_1973496659_n.jpg', class: 'fit')
+      .col.col-3= image_tag('http://distilleryimage9.ak.instagram.com/ed16f85ca47711e398d112177f882289_8.jpg', class: 'fit')
+    %hr.mb4.mt4
+    %h3.h3.regular.caps.mb3 Inspiration for this year
+    %ul
+      %li= link_to 'TacoFancy', 'https://github.com/sinker/tacofancy'
+      %li= link_to 'All Recipes', 'http://allrecipes.com/recipes/world-cuisine/latin-american/mexican/main-dishes/tacos/'
+      %li= link_to 'Food Network', 'http://www.foodnetwork.com/recipes/articles/50-tacos.html'
+  %hr.mb4.mt4
+  %footer
+    %small.block.mb4 &copy; 2014 Taco Week
