@@ -29,93 +29,94 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
 /* line 3, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
 body {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "ff-tisa-web-pro", Georgia, serif;
   line-height: 1.5;
   font-weight: 400; }
 
 /* line 9, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'freight-sans-pro', helvetica, sans-serif;
   line-height: 1.25; }
 
-/* line 12, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
-h1, .h1 {
-  font-size: 2rem; }
-
-/* line 13, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
-h2, .h2 {
-  font-size: 1.5rem; }
-
-/* line 14, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
-h3, .h3 {
-  font-size: 1.25rem; }
-
 /* line 15, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
-h4, .h4,
-p, dl, ol, ul {
-  font-size: 1rem; }
+h1, .h1 {
+  font-size: 12rem; }
+
+/* line 16, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+h2, .h2 {
+  font-size: 4rem; }
 
 /* line 17, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+h3, .h3 {
+  font-size: 2.5rem; }
+
+/* line 18, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+h4, .h4,
+p, dl, ol, ul {
+  font-size: 1.25rem; }
+
+/* line 20, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
 h5, .h5 {
   font-size: 0.75rem; }
 
-/* line 18, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+/* line 21, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
 h6, .h6, small {
   font-size: 0.75rem; }
 
 @media screen and (min-width: 48em) {
-  /* line 23, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+  /* line 26, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
   .h1 {
     font-size: 4rem; }
 
-  /* line 24, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+  /* line 27, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
   .h2 {
     font-size: 2rem; }
 
-  /* line 25, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+  /* line 28, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
   .h3 {
     font-size: 1.5rem; }
 
-  /* line 26, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+  /* line 29, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
   .h4 {
     font-size: 1.125rem; }
 
-  /* line 27, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+  /* line 30, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
   .h5 {
     font-size: 0.875rem; }
 
-  /* line 28, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+  /* line 31, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
   .h6 {
     font-size: 0.875rem; } }
-/* line 33, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+/* line 36, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
 .bold {
   font-weight: bold; }
 
-/* line 34, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+/* line 37, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
 .regular {
   font-weight: normal; }
 
-/* line 35, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+/* line 38, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
 .italic {
   font-style: italic; }
 
-/* line 36, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+/* line 39, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
 .caps {
   text-transform: uppercase;
   letter-spacing: .2em; }
 
-/* line 39, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+/* line 42, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
 .left-align {
   text-align: left; }
 
-/* line 40, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+/* line 43, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
 .center {
   text-align: center; }
 
-/* line 41, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+/* line 44, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
 .right-align {
   text-align: right; }
 
-/* line 42, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
+/* line 45, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_type.scss */
 .justified {
   text-align: justify; }
 
@@ -517,7 +518,7 @@ h6, .h6, small {
 
 /* line 3, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_grid.scss */
 .container {
-  max-width: 75rem;
+  max-width: 48rem;
   margin-right: auto;
   margin-left: auto; }
 
@@ -689,19 +690,19 @@ h6, .h6, small {
 
   /* line 40, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_grid.scss */
   .container-col-10 {
-    max-width: 62.16667rem;
+    max-width: 39.66667rem;
     margin-right: auto;
     margin-left: auto; }
 
   /* line 45, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_grid.scss */
   .container-col-8 {
-    max-width: 49.33333rem;
+    max-width: 31.33333rem;
     margin-right: auto;
     margin-left: auto; }
 
   /* line 50, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_grid.scss */
   .container-col-6 {
-    max-width: 36.5rem;
+    max-width: 23rem;
     margin-right: auto;
     margin-left: auto; } }
 /* line 3, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_table-object.scss */
@@ -795,6 +796,21 @@ a {
   a:hover {
     color: #007199;
     text-decoration: underline; }
+
+/* line 18, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_theme.scss */
+.bg-gray {
+  background-color: #EAEAEA; }
+
+/* line 22, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_theme.scss */
+.taco-headline {
+  font-size: 6rem; }
+
+/* line 26, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_theme.scss */
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
 
 /* line 3, /Users/alexbaldwin/Sites/tacoweek.org/source/stylesheets/_colors.scss */
 .white {
