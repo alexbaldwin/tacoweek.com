@@ -6,7 +6,10 @@ body {
   font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6 { line-height: $line-height-heading; }
+h1, h2, h3, h4, h5, h6 { 
+  font-family: 'freight-sans-pro', helvetica, sans-serif;
+  line-height: $line-height-heading;
+}
 
 // Base Type Scale
 h1, .h1 { font-size: $h1; }

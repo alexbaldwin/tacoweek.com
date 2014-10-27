@@ -2,31 +2,59 @@
 title: Taco Week
 ---
 
-.container.p2
-  %header.mt4
-    %h1.h1.m0 Taco Week
-    %h2.h4.regular.mid-gray.mb4 November 2nd - 9th 2014
-    %p.h3.regular International Taco Week is coming up. Get prepared for a week of glory.
-
-  %hr.mb4.mt4
+%header.table.py2
+  .table-cell.py4.center
+    %h1.taco-headline.caps.regular Taco Week
+    %p.h3.regular.italic It's like shark week, but for tacos.
+    %h2.h4.regular.m0.mid-gray November 2nd &mdash; 9th, 2014
+    %figure.m0
+      = image_tag('TacoTwins2.gif', width: 480, class: 'fit')
+      %cite.mid-gray.block Illustration by <a href="#">Alex Finis</a>
+.container
+  %hr.mb4
   %section
-    %h3.h3.regular.caps.mb3 Last years taco creations
+    %h3.h2.regular.caps.mb3 Participate
+    %ol
+      %li
+        %p During the week, eat and enjoy tacos. Learn how to cook new tacos, go out and discover new tacos. Enable hard mode by eating <em>exclusively</em> tacos.
+      %li
+        %p Share your taco-gasms with the world by using the hashtag <strong>#tacoweek</strong> on Instagram and Twitter.
+      %li
+        %p <strong>Sign up to get the daily updates</strong> during Taco Week, they'll include mouthwatering taco photos, fun facts, exclusive recipes, and more.
+= partial 'layouts/email'
+.container
+  %section.py2
+    %h3.h3.regular.caps.mb3 Recipe inspiration
+    %ul
+      %li
+        = link_to 'TacoFancy', 'https://github.com/sinker/tacofancy'
+        &mdash; open-source collection of object-oriented tacos.
+      %li
+        = link_to 'All Recipes', 'http://allrecipes.com/recipes/world-cuisine/latin-american/mexican/main-dishes/tacos/'
+        &mdash; search and sort the largest collection of recipes.
+      %li
+        = link_to 'Food Network', 'http://www.foodnetwork.com/recipes/articles/50-tacos.html'
+        &mdash; top 50 easy and quick ways to prepare tacos.
+  %section.mt2
+    %h3.h3.regular.caps.mb3 Last year's finest
     .row
-      .col.col-3= image_tag('http://photos-f.ak.instagram.com/hphotos-ak-xap1/1388858_481836355264525_2000396912_n.jpg', class: 'fit')
-      .col.col-3= image_tag('http://photos-c.ak.instagram.com/hphotos-ak-xap1/1172565_1433463810208746_1341725235_n.jpg', class: 'fit')
-      .col.col-3= image_tag('http://photos-f.ak.instagram.com/hphotos-ak-xpf1/1389262_1432771716938389_107887162_n.jpg', class: 'fit')
-      .col.col-3= image_tag('http://photos-f.ak.instagram.com/hphotos-ak-xpa1/926608_321530441320973_1209901167_n.jpg', class: 'fit')
+      .col.col-3= image_tag('http://photos-f.ak.instagram.com/hphotos-ak-xap1/1388858_481836355264525_2000396912_n.jpg', class: 'fit mb3')
+      .col.col-3= image_tag('http://photos-c.ak.instagram.com/hphotos-ak-xap1/1172565_1433463810208746_1341725235_n.jpg', class: 'fit mb3')
+      .col.col-3= image_tag('http://photos-f.ak.instagram.com/hphotos-ak-xpf1/1389262_1432771716938389_107887162_n.jpg', class: 'fit mb3')
+      .col.col-3= image_tag('http://photos-f.ak.instagram.com/hphotos-ak-xpa1/926608_321530441320973_1209901167_n.jpg', class: 'fit mb3')
     .row
       .col.col-3= image_tag('http://distilleryimage5.ak.instagram.com/027c3f3c93ed11e2a5d322000a1f90e5_7.jpg', class: 'fit')
       .col.col-3= image_tag('http://photos-e.ak.instagram.com/hphotos-ak-xaf1/10607938_539122462898452_1491294682_n.jpg', class: 'fit')
       .col.col-3= image_tag('http://scontent-b-sjc.cdninstagram.com/hphotos-xaf1/t51.2885-15/10611250_580368678738678_1973496659_n.jpg', class: 'fit')
       .col.col-3= image_tag('http://distilleryimage9.ak.instagram.com/ed16f85ca47711e398d112177f882289_8.jpg', class: 'fit')
-    %hr.mb4.mt4
-    %h3.h3.regular.caps.mb3 Inspiration for this year
-    %ul
-      %li= link_to 'TacoFancy', 'https://github.com/sinker/tacofancy'
-      %li= link_to 'All Recipes', 'http://allrecipes.com/recipes/world-cuisine/latin-american/mexican/main-dishes/tacos/'
-      %li= link_to 'Food Network', 'http://www.foodnetwork.com/recipes/articles/50-tacos.html'
+    %br
+    %p See what they rest of the world is posting, by using <strong><a href="http://iconosquare.com/tag/tacoweek">#tacoweek</a></strong>.
+  %hr.mb4.mt4
+  %section
+    %h3.h2.regular.caps.mb3#history History
+    %p In 2013 the happiest accident led to the founding of <strong>#tacoweek</strong>, you see I take pride in making the best tacos imaginable. That's why I was planning on taking <a href="http://www.foodnetwork.com/recipes/melissa-darabian/pork-carnitas-recipe.html">signature slow-cooked carnitas</a> to a friend's pre-Thanksgiving party here in San Francisco. The four pounds of prime pork shoulder were artisanally crafted for maximum softness in a top secret two day process.
+    %p When I arrived at the party, the bad news was dealt; &#8220;This is a strictly Kosher party. You'll have to take those home&#8221;. It turned out that price of my Facebook absitenence was missing crucial party details. So I took the carnitas home and quite enjoyed myself surrounded by friendship and a feast of foods outlined in the <a href="http://en.wikipedia.org/wiki/Kashrut">kashrut</a>. 
+    %p Upon arriving home, the challenge had been set before me. These perfect carnitas couldn't go to waste. They would need to be creatively remixed into breakfast, lunch, and dinner tacos. One man, seven days of a strictly taco diet. Thus <strong>#tacoweek</strong> was born.
   %hr.mb4.mt4
   %footer
-    %small.block.mb4 &copy; 2014 Taco Week
+    %small.block.mb4.h6.mid-gray &copy; 2014 all rights reserved. Crafted with love by <a href="http://alexbaldwin.com">Alex Baldwin</a>.

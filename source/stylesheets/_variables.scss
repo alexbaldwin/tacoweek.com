@@ -4,15 +4,15 @@
 $space: 1rem !default;
 
 // Typography
-$font-family: 'Helvetica Neue', Helvetica, sans-serif !default;
+$font-family: 'ff-tisa-web-pro', Georgia, serif !default;
 $line-height: 1.5 !default;
 $line-height-heading: 1.25 !default;
 
 // Type Scale
-$h1: 2rem !default;
-$h2: 1.5rem !default;
-$h3: 1.25rem !default;
-$h4: 1rem !default;
+$h1: 12rem !default;
+$h2: 4rem !default;
+$h3: 2.5rem !default;
+$h4: 1.25rem !default;
 $h5: .75rem !default;
 $h6: .75rem !default;
 
@@ -37,7 +37,7 @@ $ui-height-big: 3rem !default;
 $ui-padding: .75*$space !default;
 
 // Grid
-$grid-max-width: 75rem !default;
+$grid-max-width: 48rem !default;
 $grid-gutter: 2 * $space !default;
 
 // Theme
