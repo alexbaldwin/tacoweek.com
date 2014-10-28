@@ -29,3 +29,33 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+.taco-preview {
+  list-style: none;
+  padding: 0;
+}
+
+.taco-preview li {
+  float: left;
+  width: 48%;
+  margin: 0 4% 4% 0;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.taco-preview li:nth-child(2n) {
+  margin-right: 0;
+}
+
+.taco-preview a {
+  padding: 1rem;
+  position: absolute;
+  color: #fff;
+  text-shadow: 0px 1px 8px #000;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
