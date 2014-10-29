@@ -16,7 +16,7 @@ a {
 
 
 .bg-gray {
-  background-color: #EAEAEA;
+  background-color: rgba(0,0,0,0.04);
 }
 
 .taco-headline {
@@ -37,12 +37,15 @@ hr {
 
 .taco-preview li {
   float: left;
-  width: 48%;
-  margin: 0 4% 4% 0;
-  height: 250px;
+  width: 49%;
+  height: 0;
+  padding-bottom: 49%;
+  margin: 0 2% 2% 0;
   background-size: cover;
   background-position: center center;
   position: relative;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
 }
 
 .taco-preview li:nth-child(2n) {
@@ -58,4 +61,41 @@ hr {
   right: 0;
   bottom: 0;
   top: 0;
+}
+
+.h2 {
+  margin: 3rem 0 1.5rem;
+}
+
+.h3 {
+  margin: 2rem 0 1rem;
+}
+
+.taco-headline, .h2, .h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+.taco-header {
+  background-image: url(../images/taco-bg.jpg);
+  padding: 4rem 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.taco-subhead {
+  font-size: $h4;
+  font-style: italic;
+}
+
+.taco-hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.taco-quote {
+ text-align: center;
+ padding: 4rem 0;
+ color: $mid-gray;
 }
