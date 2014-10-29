@@ -17,24 +17,21 @@
     ┈┈▏┈▂▂▂▂▂┈▕╮▕┈┈
     ┈┈▏┈╲▂▂▂╱┈▕╮▕┈┈
     ┈┈╲▂▂▂▂▂▂▂▂╲╱-->
-    <header class='table py2'>
+    <header class='table'>
   <div class='table-cell py4 center'>
-    <h1 class='taco-headline caps regular'>Breakfast Tacos</h1>
-    <p class='h3 regular italic'>Taco Week, a holiday millennials can get behind</p>
-    <figure class='m0'>
-      <img width="480" class="fit" src="/images/TacoTwins2.gif" />
-      <cite class='mid-gray block'>Illustration by <a href="https://www.behance.net/alexfinis">Alex Finis</a></cite>
-    </figure>
+    <h1 class='taco-headline caps regular m0'>Breakfast Tacos</h1>
+    <p class='h3 regular italic m0'>Taco Week, a holiday millennials can get behind</p>
   </div>
 </header>
 <div class='container'>
-  <hr class='mb4 mt4'>
+  <hr class='mb4'>
   <section>
     <h3 class='h2 regular caps mb3'>So it begins</h3>
     <p><a href="http://giphy.com/gifs/taco-ryan-gosling-stVbNCK1U2sIo">Happy Taco Week</a>! Welcome to the first day of our week long journey praising glorious tacos around the world.</p>
     <p>Today is all about the breakfast taco, the best $2 you can spend in the morning. Or if you're not near the <a href="http://www.nytimes.com/2010/03/10/dining/10united.html">epicenter of breakfast taco heaven</a>, they're quick and easy to make at home. With Halloween behind us, let's get a slow start and make some hangover breakfast tacos.</p>
+    <hr class='py2'>
     <h3 class='h2 regular caps mb3 mt3'>Hangover tacos</h3>
-    <iframe width="560" height="315" src="//www.youtube.com/embed/ZejNssqswEo?rel=0" frameborder="0" allowfullscreen></iframe>
+    <div class='fitvid'><iframe width="560" height="315" src="//www.youtube.com/embed/ZejNssqswEo?rel=0" frameborder="0" allowfullscreen></iframe></div>
     <p class='italic mid-gray'>Source: <a href="http://hilahcooking.com/hangover-tacos/">Hilah Cooking</a></p>
     <h4 class='h3 regular caps mb2'>Ingredients</h4>
     <ul>
@@ -51,13 +48,18 @@
       <li>Combine the nearly cooked eggs with the chorizo and mix gently.</li>
       <li>Warm the tortillas on the stove or in the microwave and fill with chorizo and egg mixture</li>
     </ol>
+    <hr class='mb2 mt4'>
+    <figure class='m0 center'>
+      <img width="480" class="fit" src="/images/TacoTwins2.gif" />
+      <cite class='mid-gray block'>Illustration by <a href="https://www.behance.net/alexfinis">Alex Finis</a></cite>
+    </figure>
     <h3 class='h2 regular caps mb3 mt3'>It was about time</h3>
     <p><strong>Taco Fun Fact:</strong> <em>The tacodilla contains melted cheese in between the two folded tortillas, thus resembling a quesadilla.</em> - <a href="http://en.wikipedia.org/wiki/Taco#Puffy_tacos.2C_taco_kits.2C_breakfast_tacos_and_tacodillas">Wikipedia</a></p>
     <p>Tacos have long been a staple of lunch and dinners across the globe. They are far from conventional with flour tortillas and non-traditional ingredients. When it comes to the <a href="http://www.texasmonthly.com/story/most-important-taco-day">most important meal of the day</a>, it was time for tacos to take their place in the spotlight.</p>
     <p><a href="http://www.zagat.com/b/austin/tastiest-breakfast-tacos-in-austin">Austin, Texas</a> has first-mover advantage in the breakfast taco scene. Although the origin story is long enough <a href="http://www.amazon.com/dp/1626190496/">to fill a book</a>, the revolution began in the early 80's at Tamale House on Airport Road, Las Manitas on Congress, and a handful of select commercial locations.</p>
     <hr class='mb4 mt4'>
     <blockquote class='center'>
-      <p>“Life is a journey for tacos. Time is a salsa river. The tortilla is ajar”</p>
+      <p>“Life is a journey for tacos. Time is a salsa river. The tortilla is ajar.”</p>
       <cite>Jim Butcher</cite>
     </blockquote>
     <hr class='mb4 mt4'>
@@ -86,6 +88,13 @@
   </section>
 </div>
 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".fitvid").fitVids();
+      });
+    </script>
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
       function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
