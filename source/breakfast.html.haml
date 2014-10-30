@@ -3,13 +3,17 @@ title: Breakfast Tacos
 ---
 %header.table
   .table-cell.taco-header
+    %h2.h4.caps= link_to 'Taco Week', '/', class: 'mid-gray'
     %h1.h1.taco-headline Breakfast Tacos
-    %p.taco-subhead Taco Week, a holiday millennials can get behind
+    %p.taco-subhead 1. Start your day like a champion
 %section.container
   %h3.h2 So it begins
-  %p <a href="http://tacoweek.org">Happy Taco Week</a>! Welcome to the first day of our week long journey praising glorious tacos around the world. 
-  %p Today is all about the breakfast taco, the best $2 you can spend in the morning. Or if you're not near the <a href="http://www.nytimes.com/2010/03/10/dining/10united.html">epicenter of breakfast taco heaven</a>, they're quick and easy to make at home. With Halloween behind us, let's get a slow start and make some hangover breakfast tacos.
+  %p Welcome to the first day of Taco Week! Our journey praising glorious tacos around the world starts now. Today is all about the breakfast taco, the best $2 you can spend in the morning. Or if you're not near the <a href="http://www.nytimes.com/2010/03/10/dining/10united.html">epicenter of breakfast taco heaven</a>, they're quick and easy to make at home.
+  %p <strong>Taco Fun Fact:</strong> <em>The tacodilla contains melted cheese in between the two folded tortillas, thus resembling a quesadilla.</em> - <a href="http://en.wikipedia.org/wiki/Taco#Puffy_tacos.2C_taco_kits.2C_breakfast_tacos_and_tacodillas">Wikipedia</a>
+  %p Breakfast tacos are far from conventional with flour tortillas and non-traditional ingredients. When it comes to the <a href="http://www.texasmonthly.com/story/most-important-taco-day">most important meal of the day</a>, they are the <em>complete</em> breakfast.
+  %p <a href="http://www.zagat.com/b/austin/tastiest-breakfast-tacos-in-austin">Texas</a> has first-mover advantage in the breakfast taco scene. Although the origin story is long enough <a href="http://www.amazon.com/dp/1626190496/">to fill a book</a>, the revolution began in the early 80's at Tamale House on Airport Road, Las Manitas on Congress, and a handful of select commercial locations.
   %h3.h2 Hangover tacos
+  %p With an epic Halloween behind us, don't let your Taco Week be as sloppy as a <a href="http://giphy.com/gifs/cheezburger-halloween-dancing-IyL7BTQmCK5Ow/fullscreen">last minute Jack Skellington costume</a>. Instead, stay classy and make hangover tacos. Or if you're feeling up to it, <a href="#recipes">something even more elaborate</a>.
   .fitvid <iframe width="560" height="315" src="//www.youtube.com/embed/ZejNssqswEo?rel=0" frameborder="0" allowfullscreen></iframe>
   %p.italic.mid-gray Source: <a href="http://hilahcooking.com/hangover-tacos/">Hilah Cooking</a>
   %h4.h3 Ingredients
@@ -25,17 +29,11 @@ title: Breakfast Tacos
     %li Pour the eggs into the empty side of the skillet and let stand for about 30 seconds before carefully stirring. Continue to cook over medium heat until the eggs are almost set.
     %li Combine the nearly cooked eggs with the chorizo and mix gently.
     %li Warm the tortillas on the stove or in the microwave and fill with chorizo and egg mixture
-  %figure.m0.center
-    = image_tag('TacoTwins2.gif', width: 480, class: 'fit')
-    %cite.mid-gray.block Illustration by <a href="https://www.behance.net/alexfinis">Alex Finis</a>
-  %h3.h2 It was about time
-  %p <strong>Taco Fun Fact:</strong> <em>The tacodilla contains melted cheese in between the two folded tortillas, thus resembling a quesadilla.</em> - <a href="http://en.wikipedia.org/wiki/Taco#Puffy_tacos.2C_taco_kits.2C_breakfast_tacos_and_tacodillas">Wikipedia</a>
-  %p Tacos have long been a staple of lunch and dinners across the globe. They are far from conventional with flour tortillas and non-traditional ingredients. When it comes to the <a href="http://www.texasmonthly.com/story/most-important-taco-day">most important meal of the day</a>, it was time for tacos to take their place in the spotlight.
-  %p <a href="http://www.zagat.com/b/austin/tastiest-breakfast-tacos-in-austin">Austin, Texas</a> has first-mover advantage in the breakfast taco scene. Although the origin story is long enough <a href="http://www.amazon.com/dp/1626190496/">to fill a book</a>, the revolution began in the early 80's at Tamale House on Airport Road, Las Manitas on Congress, and a handful of select commercial locations.
   %blockquote.taco-quote
     %p “Life is a journey for tacos. Time is a salsa river. The tortilla is ajar.” 
     %cite Jim Butcher
-  %h3.h2 Make your own
+  %h3.h2#recipes More breakfast taco recipes
+  %p You can 'put an egg on it' and make anything a breakfast taco.
   %ul.taco-preview
     %li{style: 'background-image: url(http://farm8.staticflickr.com/7194/6980269487_d76e783de6_b.jpg);'}
       = link_to 'Breakfast Tacos with Avocado Radish Salsa', 'http://theyearinfood.com/2012/03/breakfast-tacos-with-avocado-radish-salsa.html'
