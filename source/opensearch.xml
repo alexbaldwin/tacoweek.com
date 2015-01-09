@@ -4,6 +4,6 @@
   <ShortName>Taco Week</ShortName>
   <Description>Search Taco Week</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Url method="get" type="text/html" 
-    template="http://www.google.com/search?q={searchTerms}+site%3tacoweek.org&amp;hl=en"/>
+  <Url method="get" type="text/html"
+    template="http://www.google.com/search?q={searchTerms}+site%3tacoweek.com&amp;hl=en"/>
 </OpenSearchDescription>

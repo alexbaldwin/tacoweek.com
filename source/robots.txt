@@ -3,4 +3,4 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
-Sitemap: http://tacoweek.org/sitemap.xml
+Sitemap: http://tacoweek.com/sitemap.xml
