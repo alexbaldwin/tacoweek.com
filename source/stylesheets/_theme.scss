@@ -68,6 +68,23 @@ hr {
   top: 0;
 }
 
+.taco-articles {
+  display: table;
+  width: 100%;
+}
+
+.taco-articles li {
+  float: left;
+  width: 50%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: center;
+}
+
+.taco-articles img {
+  vertical-align: center;
+}
+
 .h2 {
   margin: 3rem 0 1.5rem;
 }

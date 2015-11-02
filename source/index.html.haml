@@ -1,11 +1,11 @@
 ---
-title: Taco Week, 11/2/14 - 11/9/14
+title: Taco Week, 11/1/2015 - 11/7/2015
 ---
 
 %header.table
   .table-cell.taco-header
     %h1.h1.taco-headline Taco Week
-    %p.taco-subhead November 2nd &mdash; 9th, 2014
+    %p.taco-subhead November 1st &mdash; 7th, 2015
 %section.container
   %h3.h2 How to participate
   %ol
@@ -15,14 +15,43 @@ title: Taco Week, 11/2/14 - 11/9/14
       %p Share your taco-gasms with the world by using the hashtag <strong>#tacoweek</strong> on Instagram and Twitter.
     %li
       %p <strong>Sign up to get the daily updates</strong> from our newsletter.
-  %ol.hide
-    %li= link_to 'Breakfast Tacos', '/breakfast-tacos.html'
-    %li= link_to 'Fancy Tacos', '/fancy-tacos.html'
-    %li= link_to 'Street Tacos', '/street-tacos.html'
-    %li= link_to 'Dessert Tacos', '/dessert-tacos.html'
-    %li= link_to 'Better than Burritos', '/burritos-are-stupid.html'
-    %li= link_to 'Fusion Tacos', '/fusion-tacos.html'
-    %li= link_to 'Future Tacos', '/future-tacos.html'
+  %h3.h3 This year's finest
+  %ol.taco-articles.clearfix
+    %li
+      = link_to '/breakfast-tacos.html' do
+        = image_tag('breakfast-tacos.png')
+        %br
+        Breakfast Tacos
+    %li
+      = link_to '/fancy-tacos.html' do
+        = image_tag('fancy-tacos.png')
+        %br
+        Fancy Tacos
+    %li
+      = link_to '/street-tacos.html' do
+        = image_tag('street-tacos.png')
+        %br
+        Street Tacos
+    %li
+      = link_to '/dessert-tacos.html' do
+        = image_tag('dessert-tacos.png')
+        %br
+        Dessert Tacos
+    %li
+      = link_to '/burritos-are-stupid.html' do
+        = image_tag('tacos-vs-burritos.png')
+        %br
+        Burritos vs. Tacos
+    %li
+      = link_to '/fusion-tacos.html' do
+        = image_tag('fusion-tacos.png')
+        %br
+        Fusion Tacos
+    %li
+      = link_to '/future-tacos.html' do
+        = image_tag('future-tacos.png')
+        %br
+        Future Tacos
 %section.container
   = partial 'layouts/share'
 = partial 'layouts/email'
