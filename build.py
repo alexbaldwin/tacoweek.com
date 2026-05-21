@@ -266,8 +266,6 @@ def build_sitemap_robots():
         encoding="utf-8")
     (PUBLIC / "robots.txt").write_text(
         f"User-agent: *\nAllow: /\n\nSitemap: {BASE_URL}/sitemap.xml\n", encoding="utf-8")
-    # GitHub Pages custom-domain marker (published at the site root).
-    (PUBLIC / "CNAME").write_text(urlparse(BASE_URL).netloc + "\n", encoding="utf-8")
 
 
 def build_og_cards():

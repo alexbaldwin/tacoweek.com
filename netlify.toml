@@ -1,0 +1,10 @@
+# The site is pre-built into public/ by build.py — Netlify just publishes it.
+[build]
+  publish = "public"
+  command = "python3 build.py"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
